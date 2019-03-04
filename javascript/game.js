@@ -26,6 +26,7 @@ var winsText = document.getElementById("wins-text");
 var lossesText = document.getElementById("losses-text");
 var guessText =  document.getElementById("guess-text");
 
+
 document.onkeyup = function(event){
     // Grabbing the users guess when they press on the keyboard
     var userGuess =  event.key;
@@ -43,19 +44,16 @@ document.onkeyup = function(event){
      
     }
 
-    
-
-
-
  // Hide the directions
     directionsText.textContent = "";
 
+    
     userChoiceText.textContent = "You chose: " + userGuess;
     computerChoiceText.textContent = "The computer chose: " + computerGuess;
   
     winsText.textContent = "Wins: " + wins;
     lossesText.textContent = "Losses: " + losses;
-      guessText.textContent = "Guesses:" + guessCount;
+    guessText.textContent = "Guesses:" + guessCount;
    
     
 

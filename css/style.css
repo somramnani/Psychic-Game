@@ -5,8 +5,21 @@
    
 }
 .container{
-    margin-top: 2em;
+    transform: translateY(2em);
+    margin-top: 1em;
     padding: 1em;
+   
+    background: white;
+ 
+}
+.background-image{
+    background-image: url("https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    height: 100%;
+}
+p{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 2em;
+
 }
 
 /* ========================================================================== */ 
