@@ -16,6 +16,7 @@ var alphabet = [ "a" ,"b" , "c" , "d" , "e"  , "f"  , "g"  , "h", "i" ,
 
 var wins = 0;
 var losses = 0;
+var guessCount = 0;
 
 // Create variables that hold references to the places in the HTML where we want to display things.
 var directionsText = document.getElementById("directions-text");
@@ -32,12 +33,17 @@ document.onkeyup = function(event){
     // Create the computers letter
     var computerGuess = alphabet[Math.floor(Math.random() * alphabet.length)];
     
+ 
     if (userGuess === computerGuess){
         wins++;
+        
     }
     else{
         losses++;
+     
     }
+
+    
 
 
 
@@ -49,7 +55,7 @@ document.onkeyup = function(event){
   
     winsText.textContent = "Wins: " + wins;
     lossesText.textContent = "Losses: " + losses;
-      guessText.textContent = "Guesses:";
+      guessText.textContent = "Guesses:" + guessCount;
    
     
 
