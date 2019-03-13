@@ -7,14 +7,14 @@ HTML,CSS & JavaScript
 Bootstrap is also used for styling. 
 
 ### Game Features 
-Wins: (# of times the user has guessed the letter correctly)
+- Wins: (# of times the user has guessed the letter correctly)
 
-Losses: (# of times the user has failed to guess the letter correctly after exhausting all guesses)
+- Losses: (# of times the user has failed to guess the letter correctly after exhausting all guesses)
 
-Guesses Left: (# of guesses left. This will update)
+- Guesses Left: (# of guesses left. This will update)
 
-Your Guesses So Far: (the specific letters that the user typed. Display these until the user either wins or loses.)
+- Your Guesses So Far: (the specific letters that the user typed. Display these until the user either wins or loses.)
 
-When the player wins, the Wins counter increases  and starts the game over again (without refreshing the page).
+- When the player wins, the Wins counter increases  and starts the game over again (without refreshing the page).
 
-When the player loses, the Losses counter increases and restart the game without a page refresh (just like when the user wins).
+- When the player loses, the Losses counter increases and restart the game without a page refresh (just like when the user wins).
