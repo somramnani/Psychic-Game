@@ -2,11 +2,11 @@
 
 A game where  the app randomly picks a letter, and the user has to guess which letter the app chose. 
 
-## What is Used
+### What Is Used
 HTML,CSS & JavaScript
 Bootstrap is also used for styling. 
 
-## Game Features 
+### Game Features 
 Wins: (# of times the user has guessed the letter correctly)
 
 Losses: (# of times the user has failed to guess the letter correctly after exhausting all guesses)
