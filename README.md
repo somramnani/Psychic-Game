@@ -1,5 +1,6 @@
 # ![](/images/Capture.PNG)
 
+## Overview
 A basic game where  the app randomly picks a letter, and the user has to guess which letter the app chose. 
 
 ## Tools/Languages Used
